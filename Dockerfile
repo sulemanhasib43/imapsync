@@ -26,5 +26,3 @@ RUN cpanm Encode::IMAPUTF7
 
 RUN wget -N https://imapsync.lamiral.info/imapsync && chmod +x imapsync
 RUN mv /usr/bin/imapsync /usr/bin/imapsync-old && cp ./imapsync /usr/bin/imapsync
-
-COPY migration-260909-46b75e9ef67e.json .
